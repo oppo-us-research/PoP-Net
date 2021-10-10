@@ -37,13 +37,10 @@ The summary of the dataset is shown in the Table below.
 </p>
 
 
-## Data preparation
+## Data download and preparation
 
 Three data folders with the following directory structure are provided to demonstrate the usage of this dataset. You 
-are welcome to click on the provided links to download the
-[dataset](DGX04:/mnt/Backup2/yuliangguo/Datasets/kinect_depth_human3d_release/dataset) (778 GB), 
-[labels](DGX04:/mnt/Backup2/yuliangguo/Datasets/kinect_depth_human3d_release/labels) (2 GB),
-[predictions](DGX04:/mnt/Backup2/yuliangguo/Datasets/kinect_depth_human3d_release/predictions) (4.8 GB). 
+are welcome to use the torrent file(**"./KD3DH.torrent"**) to download the dataset(~800GB).
 These three folders by default are placed in current directory together with 'util' folder.
 ```
     dataset

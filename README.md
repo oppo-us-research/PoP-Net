@@ -42,7 +42,7 @@ The summary of the dataset is shown in the Table below.
 Three data folders with the following directory structure are provided to demonstrate the usage of this dataset. You 
 are welcome to use the torrent file(**"./dataset.torrent"**) to download the dataset(~800GB). 
 We recommended you use [bittorent](https://www.bittorrent.com/) as the download client.
-These three folders by default are placed in current directory together with 'util' folder.
+The downloaded dataset includes three folders which are expected to be placed under the root directory of the this repo together with 'util' folder. The detailed directory structures are explained as below:
 ```
     dataset
     ├── train_val

@@ -33,14 +33,14 @@ The summary of the dataset is shown in the Table below.
 <p align="center">
   <img src="figs/dataset_summary.png" width="500" />
   <br>
-    <em> Table 1: KD3DH Summary. The total number of images (Img), human subjects (Sbj), recording locations (Loc)}, self-orientations (Ori), action types (Act), scenes (Sn) are summarized. Additional label type (L+) indicates whether a set has segmentation (seg) or multi-person (mp) labels. </em>
+    <em> Table 1: MP-3DHP Summary. The total number of images (Img), human subjects (Sbj), recording locations (Loc)}, self-orientations (Ori), action types (Act), scenes (Sn) are summarized. Additional label type (L+) indicates whether a set has segmentation (seg) or multi-person (mp) labels. </em>
 </p>
 
 
 ## Data download and preparation
 
 Three data folders with the following directory structure are provided to demonstrate the usage of this dataset. You 
-are welcome to use the torrent file(**"./KD3DH.torrent"**) to download the dataset(~800GB).
+are welcome to use the torrent file(**"./dataset.torrent"**) to download the dataset(~800GB).
 These three folders by default are placed in current directory together with 'util' folder.
 ```
     dataset
@@ -115,7 +115,7 @@ The results of the considering methods on the four testing set are shown in the 
 <p align="center">
   <img src="figs/evaluation_results.png" width="500" />
   <br>
-    <em> Table 2: Evaluation on KD3DH dataset. Competing methods are evaluated on four different testing sets. For each test set, the best method is marked in bold black while the second best method is marked in blue. </em>
+    <em> Table 2: Evaluation on MP-3DHP dataset. Competing methods are evaluated on four different testing sets. For each test set, the best method is marked in bold black while the second best method is marked in blue. </em>
 </p>
 
 

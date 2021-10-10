@@ -1,11 +1,11 @@
-# KD3DH: Kinect Depth 3D Human Dataset
+# MP-3DHP: Multi-Person 3D Human Pose Dataset
 
 ## Introduction
 
-Kinect Depth 3D Human Dataset (KD3DH) was constructed to boost the development and evaluation of 3D pose estimation 
-targeting real-world multi-person challenges. Specifically, it was constructed to ensure data sufficiency and diversity 
-in human poses, object scales, camera angles, truncation scenarios, background scenes, and dynamic occlusions. For the 
-details in dataset construction, data augmentation methods, and the evaluation methods, please refer to our paper:
+Multi-Person 3D HumanPose Dataset (MP-3DHP) was constructed to facilitate the development of multi-person 3D pose estimation methods
+targeting real-world challenges. Specifically, it was constructed to ensure data sufficiency and diversity 
+in the training data considering the variance in human poses, object scales, camera angles, truncation scenarios, background scenes, and dynamic occlusions. For the 
+details in dataset construction, data augmentation methods, and the evaluation metrics, please refer to our paper:
 
 "Pop-net: pose over parts network for multi-person 3D pose estimation from a depth image", Y. Guo, etal., arxiv, 2020 [[paper](https://arxiv.org/abs/2012.06734)]
 
@@ -13,7 +13,7 @@ details in dataset construction, data augmentation methods, and the evaluation m
 <p align="center">
   <img src="figs/dataset_visualization.png" width="700" />
   <br>
-    <em> Figure 1: KD3DH  dataset. (Top)  Five  single-human  examples  recorded  from  different  locations  from  the  training  set.   (Bottom)  Two background scenes, and three multi-person testing examples are shown. </em>
+    <em> Figure 1: MP-3DHP dataset. (Top)  Five  single-human  examples  recorded  from  different  locations  from  the  training  set.   (Bottom)  Two background scenes, and three multi-person testing examples are shown. </em>
 </p>
 
 In the training set, a human subject is recorded at four different locations relative to the camera plus a set of 

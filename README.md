@@ -40,7 +40,8 @@ The summary of the dataset is shown in the Table below.
 ## Data download and preparation
 
 Three data folders with the following directory structure are provided to demonstrate the usage of this dataset. You 
-are welcome to use the torrent file(**"./dataset.torrent"**) to download the dataset(~800GB).
+are welcome to use the torrent file(**"./dataset.torrent"**) to download the dataset(~800GB). 
+We recommended you use [bittorent](https://www.bittorrent.com/) as the download client.
 These three folders by default are placed in current directory together with 'util' folder.
 ```
     dataset

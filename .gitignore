@@ -1,0 +1,8 @@
+dataset
+labels
+predictions
+vis_gt
+vis_pred
+*~
+*.pyc
+.idea

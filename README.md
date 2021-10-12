@@ -145,3 +145,19 @@ from the testing set.
   <br>
     <em> Figure 3: Visual comparison of competing methods on challenging cases. </em>
 </p> 
+
+
+
+## Video demos
+
+A few video clips are included below showing visual comparison between few baseline methods and our PoP-Net. You are highly welcome to take the chalenge to push foward the state-of-the-art performance!
+
+https://user-images.githubusercontent.com/13290379/137015881-7badaeae-33ec-4ddf-96da-7b140a705f40.mp4
+
+
+https://user-images.githubusercontent.com/13290379/137015952-a41044c2-f517-4dfd-bdad-2b198a8f9e1a.mp4
+
+
+https://user-images.githubusercontent.com/13290379/137015206-1406a4e4-4393-49c7-b487-8b4fd029db0b.mp4
+
+

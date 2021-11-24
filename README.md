@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Multi-Person 3D HumanPose Dataset (MP-3DHP) is a depth sensor-based dataset, which was constructed to facilitate the development of multi-person 3D pose estimation methods targeting real-world challenges. The dataset includes 177k training data and 33k validation data where both the 3D poses and body segments are avaliable. The dataset also include 9k clean background data and 4k multi-person 3D poses testing data. 
+Multi-Person 3D HumanPose Dataset (MP-3DHP) is a depth sensor-based dataset, which was constructed to facilitate the development of multi-person 3D pose estimation methods targeting real-world challenges. The dataset includes 177k training data and 33k validation data where both the 3D human poses and body segments are avaliable. The dataset also include 9k clean background data and 4k testing data including multi-person 3D poses. 
 
-Specifically, it was constructed to ensure data sufficiency and diversity in the training data considering the variance in human poses, object scales, camera angles, truncation scenarios, background scenes, and dynamic occlusions. For the details in dataset construction, data augmentation methods, and the evaluation metrics, please refer to our paper:
+Specifically, MP-3DHP was constructed to ensure data sufficiency and diversity in the training data considering the variance in human poses, object scales, camera angles, truncation scenarios, background scenes, and dynamic occlusions. The availibility of human body segments the background images enables the effective multi-person and background data augmentation which is crutial for the generalization from single-person training to multi-person testing task. For the details in dataset construction, data augmentation methods, and the evaluation metrics, please refer to our paper:
 
 "Pop-net: pose over parts network for multi-person 3D pose estimation from a depth image", Y. Guo, etal., arxiv, 2020 [[paper](https://arxiv.org/abs/2012.06734)]
 

@@ -2,11 +2,13 @@
 
 ## Introduction
 
-Multi-Person 3D HumanPose Dataset (MP-3DHP) is a depth sensor-based dataset, which was constructed to facilitate the development of multi-person 3D pose estimation methods targeting real-world challenges. The dataset includes 177k training data and 33k validation data where both the 3D human poses and body segments are avaliable. The dataset also include 9k clean background data and 4k testing data including multi-person 3D poses. 
+Multi-Person 3D HumanPose (MP-3DHP) Dataset was introduced in the WACV 2022 paper:
 
-Specifically, MP-3DHP was constructed to ensure data sufficiency and diversity in the training data considering the variance in human poses, object scales, camera angles, truncation scenarios, background scenes, and dynamic occlusions. The availibility of human body segments the background images enables the effective multi-person and background data augmentation which is crutial for the generalization from single-person training to multi-person testing task. For the details in dataset construction, data augmentation methods, and the evaluation metrics, please refer to our paper:
+"Pop-net: pose over parts network for multi-person 3D pose estimation from a depth image", Y. Guo, etal., WACV, 2022 [[wacv](https://openaccess.thecvf.com/content/WACV2022/html/Guo_PoP-Net_Pose_Over_Parts_Network_for_Multi-Person_3D_Pose_Estimation_WACV_2022_paper.html)] [[arxiv](https://arxiv.org/abs/2012.06734)]
 
-"Pop-net: pose over parts network for multi-person 3D pose estimation from a depth image", Y. Guo, etal., arxiv, 2020 [[paper](https://arxiv.org/abs/2012.06734)]
+MP-3DHP Dataset is a depth sensor-based dataset, which was constructed to facilitate the development of multi-person 3D pose estimation methods targeting real-world challenges. The dataset includes 177k training data and 33k validation data where both the 3D human poses and body segments are avaliable. The dataset also include 9k clean background data and 4k testing data including multi-person 3D poses. 
+
+Specifically, MP-3DHP was constructed to ensure data sufficiency and diversity in the training data considering the variance in human poses, object scales, camera angles, truncation scenarios, background scenes, and dynamic occlusions. The availibility of human body segments the background images enables the effective multi-person and background data augmentation which is crutial for the generalization from single-person training to multi-person testing task. For the details in dataset construction, data augmentation methods, and the evaluation metrics, please refer to our paper.
 
 
 <p align="center">
@@ -21,8 +23,8 @@ provided in the training set. Such setup enables background and multi-person aug
 background augmentation and two examples of multi-person augmentation are visualized in the following figure.
 
 <p align="center">
-  <img src="figs/bg_aug.png" width="300" />
-  <img src="figs/mp_aug.png" width="300" />
+  <img src="figs/bg_aug.png" width="250" />
+  <img src="figs/mp_aug.png" width="250" />
    <br>
     <em> Figure 2: Augmented training samples. (Left) Single-person training samples augmented with a random background scene. (Right) Augmented multi-person training sample composed from multiple single-person training samples and a random background scene.</em>
 </p>
@@ -30,7 +32,7 @@ background augmentation and two examples of multi-person augmentation are visual
 The summary of the dataset is shown in the Table below.
 
 <p align="center">
-  <img src="figs/dataset_summary.png" width="500" />
+  <img src="figs/dataset_summary.png" width="400" />
   <br>
     <em> Table 1: MP-3DHP Summary. The total number of images (Img), human subjects (Sbj), recording locations (Loc)}, self-orientations (Ori), action types (Act), scenes (Sn) are summarized. Additional label type (L+) indicates whether a set has segmentation (seg) or multi-person (mp) labels. </em>
 </p>
@@ -114,7 +116,7 @@ Specifically, our evaluation consider both best-match PCK and mAP metrics to eva
 The results of the considering methods on the four testing set are shown in the Table below:
 
 <p align="center">
-  <img src="figs/evaluation_results.png" width="500" />
+  <img src="figs/evaluation_results.png" width="400" />
   <br>
     <em> Table 2: Evaluation on MP-3DHP dataset. Competing methods are evaluated on four different testing sets. For each test set, the best method is marked in bold black while the second best method is marked in blue. </em>
 </p>
@@ -149,7 +151,7 @@ from the testing set.
 
 ## Video demos
 
-A few video clips are included below showing visual comparison between few baseline methods and our PoP-Net. You are highly welcome to take the chalenge to push foward the state-of-the-art performance!
+A few video clips are included below showing visual comparison between few baseline methods and our PoP-Net. You are highly welcome to take the chalenge to beat the state-of-the-art methods!
 
 https://user-images.githubusercontent.com/13290379/137015881-7badaeae-33ec-4ddf-96da-7b140a705f40.mp4
 
@@ -160,3 +162,14 @@ https://user-images.githubusercontent.com/13290379/137015952-a41044c2-f517-4dfd-
 https://user-images.githubusercontent.com/13290379/137015206-1406a4e4-4393-49c7-b487-8b4fd029db0b.mp4
 
 
+## Citation
+Please cite the paper in your publications if it helps your research: 
+
+    @InProceedings{Guo_2022_WACV,
+    author    = {Guo, Yuliang and Li, Zhong and Li, Zekun and Du, Xiangyu and Quan, Shuxue and Xu, Yi},
+    title     = {PoP-Net: Pose Over Parts Network for Multi-Person 3D Pose Estimation From a Depth Image},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2022},
+    pages     = {1240-1249}
+    }

@@ -1,0 +1,17 @@
+# Directories
+data
+.*
+!/.gitignore
+# temporary files
+*~
+*.pyc
+# generated files
+lib/pafprocess/build
+*.so
+trained_model
+predictions
+*.png
+*.jpg
+A2J_experiments/mp_result
+A2J_experiments/bg_result
+A2J_experiments/runs

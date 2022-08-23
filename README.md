@@ -121,6 +121,9 @@ The results of the considering methods on the four testing set are shown in the 
     <em> Table 2: Evaluation on MP-3DHP dataset. Competing methods are evaluated on four different testing sets. For each test set, the best method is marked in bold black while the second best method is marked in blue. </em>
 </p>
 
+## Third Party Methods
+
+FYI, the training and evaluation scripts for the third party methods (except our own method) are included in 'third_party_methods' folder to demonstrate the usage of the released dataset. You are expected to repeat the results of yolo-pose+, open-pose+(rtpose), and yolo-A2J as reported in our paper.
 
 ## Visualization
 
